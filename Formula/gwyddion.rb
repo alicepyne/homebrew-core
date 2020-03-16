@@ -24,7 +24,7 @@ class Gwyddion < Formula
                           "--disable-desktop-file-update",
                           "--prefix=#{prefix}",
                           "--with-html-dir=#{doc}",
-                          "--disable-pygwy"
+                          "--enable-pygwy"
     system "make", "install"
   end
 
